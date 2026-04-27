@@ -1,6 +1,6 @@
-
 ---
 title: "첫 블로그 글"
+categories: [backend, gis]
 ---
 
 안녕하세요 👋  
