@@ -1,3 +1,8 @@
 theme: minima
 title: Jaeyong Blog
-description: Backend / GIS / Dev Log
+description: Backend Developer | GIS | LLM/RAG
+
+header_pages:
+  - index.md
+  - categories.md
+  - about.md
