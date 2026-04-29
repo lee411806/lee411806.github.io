@@ -3,6 +3,4 @@ title: Jaeyong Blog
 description: Backend Developer | GIS | LLM/RAG
 
 header_pages:
-  - index.md
-  - categories.md
   - about.md

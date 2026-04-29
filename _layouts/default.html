@@ -1,6 +1,51 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
+  <style>
+    .site-wrapper {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+    .sidebar {
+      width: 160px;
+      flex-shrink: 0;
+      padding-top: 0.5rem;
+    }
+    .sidebar h3 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #828282;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #e8e8e8;
+      padding-bottom: 0.4rem;
+    }
+    .sidebar-categories {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar-categories li {
+      margin-bottom: 0.35rem;
+    }
+    .sidebar-categories a {
+      color: #424242;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .sidebar-categories a:hover {
+      color: #2a7ae2;
+    }
+    .sidebar-categories span {
+      color: #828282;
+      font-size: 0.8rem;
+    }
+    .main-content {
+      flex: 1;
+      min-width: 0;
+    }
+  </style>
   <body>
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
