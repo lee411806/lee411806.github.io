@@ -1,0 +1,12 @@
+<div class="sidebar">
+  <h3>Categories</h3>
+  <ul class="sidebar-categories">
+    {% for category in site.categories %}
+      <li>
+        <a href="/categories/#{{ category[0] | slugify }}">
+          {{ category[0] | capitalize }} <span>({{ category[1].size }})</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
