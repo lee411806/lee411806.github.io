@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🎯 Kotlin 핵심 특징 정리: 왜 실용적인 언어인가?"
-categories: [멘토링 1주차]
+categories: [Kotlin]
 ---
 
 코틀린은 단순히 자바를 대체하는 언어가 아니라, 더 안전하고 생산적인 설계를 가능하게 하는 **'실용적인 도구(Pragmatic Language)'**입니다. 

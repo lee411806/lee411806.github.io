@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🐘 Gradle Root Project 구조와 설정 (Plugin vs Dependency)"
-categories: [멘토링 1주차]
+categories: [아키텍처]
 ---
 
 멀티 모듈 프로젝트에서 루트의 `build.gradle`은 전체 프로젝트의 뼈대를 잡는 역할을 합니다.
